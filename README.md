@@ -29,6 +29,16 @@ PATH:
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\tools
 
+System Variable:
+
+JAVA_HOME
+C:\Program Files\Java\jdk1.8.0_172
+
+PATH:
+
+%JAVA_HOME%\bin
+
+
 ```
 
 
