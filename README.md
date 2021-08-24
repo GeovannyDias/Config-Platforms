@@ -16,7 +16,18 @@ SDK Components Setup
 Changes Path:
 C:\Android\Sdk
 
+JDK Location:
+C:\Program Files\Android\Android Studio1\jre (Note: Gradle may be using JAVA_HOME when invoked from command line.
 
+System Variable:
+
+ANDROID_HOME
+C:\Android\Sdk
+
+PATH:
+
+%ANDROID_HOME%\platform-tools
+%ANDROID_HOME%\tools
 
 ```
 
