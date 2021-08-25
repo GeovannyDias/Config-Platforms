@@ -47,7 +47,6 @@ PATH:
 
 %JAVA_HOME%\bin
 
-
 ```
 
 ## GRADLE BUILD TOOL
@@ -67,6 +66,7 @@ C:\Gradle\gradle-7.2
 Step 3) Copy path then add in Environment Variables
 C:\Gradle\gradle-7.2\bin
 
+```
 
 ## Visual Studio Code
 
