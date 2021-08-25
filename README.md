@@ -50,6 +50,24 @@ PATH:
 
 ```
 
+## GRADLE BUILD TOOL
+
+```
+https://gradle.org/
+https://gradle.org/releases/
+
+Download: binary-only
+
+Step 1) Download Gradle files
+https://gradle.org/
+
+Step 2) Extract this file and place in C:
+C:\Gradle\gradle-7.2
+
+Step 3) Copy path then add in Environment Variables
+C:\Gradle\gradle-7.2\bin
+
+
 ## Visual Studio Code
 
 ```
