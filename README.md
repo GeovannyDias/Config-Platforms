@@ -83,7 +83,7 @@ Step 1
 
 First, you have to need to open the command prompt (PowerShell Run as administrator) and run this command.
 
-set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+~$ set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 When you run this command, you can see that your system has set all policies for the current user as remotely.
 It will take few seconds to complete this process.
@@ -106,7 +106,7 @@ Step 3
 
 To view their policy, you need to run this command in your command prompt:
 
-Get-ExecutionPolicy -list
+~$ Get-ExecutionPolicy -list
 
 When you run this command, a few policies are shown on your monitor screen. These policies are:
 
