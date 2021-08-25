@@ -126,5 +126,21 @@ Now you need to go to the command prompt and check that your problem is solved.
 
 ```
 
+## Angular and Ionic (cordova)
+
+```
+
+npm install -g @angular/cli
+npm install -g @angular/cli@11
+
+npm install -g @ionic/cli
+npm install -g @ionic/cli@5
+
+npm uninstall -g ionic
+
+npm i -g cordova
+npm i -g cordova-res
+
+```
 
 
