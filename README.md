@@ -49,6 +49,36 @@ PATH:
 
 ```
 
+## ANDROID LICENSES
+
+```
+gradle --stop
+
+
+FAILURE: Build failed with an exception.
+
+Checking the license for package Android SDK Platform 29 in C:\Android\Sdk\licenses
+Warning: License for package Android SDK Platform 29 not accepted.
+
+* What went wrong:
+Could not determine the dependencies of task ':app:compileDebugJavaWithJavac'.
+> Failed to install the following Android SDK packages as some licences have not been accepted.
+     platforms;android-29 Android SDK Platform 29
+  To build this project, accept the SDK license agreements and install the missing components using the Android Studio SDK Manager.
+  Alternatively, to transfer the license agreements from one workstation to another, see http://d.android.com/r/studio-ui/export-licenses.html
+
+  Using Android SDK: C:\Android\Sdk
+
+SOLUTION:
+
+C:\Android\Sdk\tools\bin
+
+Open cmd and run next command:
+
+sdkmanager --licenses
+
+```
+
 ## GRADLE BUILD TOOL
 
 ```
