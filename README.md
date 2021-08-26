@@ -98,6 +98,23 @@ C:\Gradle\gradle-7.2\bin
 
 ```
 
+## SDK 31.0.0 is corrupted
+
+```
+What went wrong:
+Could not determine the dependencies of task ':app:compileDebugJavaWithJavac'.
+> Installed Build Tools revision 31.0.0 is corrupted. Remove and install again using the SDK Manager.
+
+You may also need to do changes in SDK Manager under Tools, uninstall 31.0.0, and select Android R (API 30: version 11) to install 30.0.3
+
+- Open Android Studio
+- Manager Tools
+- Uninstall SDK 31.0.0 and Platform 12
+- Install SDK 30.0.3 and Platform 11
+
+```
+
+
 ## Visual Studio Code
 
 ```
