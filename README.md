@@ -214,5 +214,22 @@ npm i -g cordova
 npm i -g cordova-res
 
 ```
+## Ionic Capacitor
+
+```
+ionic capacitor error:
+
+An unhandled exception occurred: The target entry-point "@ionic-native/geolocation" has missing dependencies
+@ionic-native/core
+
+Solution:
+
+Instalar el siguiente paquete para que se pueda utilizar los plugins de Ionic Framework con capacitor
+npm i @ionic-native/core
+
+
+
+```
+
 
 
