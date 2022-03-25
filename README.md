@@ -230,6 +230,17 @@ npm i @ionic-native/core
 
 
 ```
+## Angular 13
 
+```
+ERROR:
+Package install failed, see above.
+The Schematic workflow failed. See above.
+
+SOLVE:
+npm cache clean --force
+npm i -g @angular/cli
+
+```
 
 
